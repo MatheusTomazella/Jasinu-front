@@ -1,3 +1,17 @@
-<p>
-  exercises-page works!
-</p>
+<nav>
+    <div>
+        <img src="https://unisal.br/wp-content/uploads/2021/10/1-logo_unisal_grande.png">
+    </div>
+    <div>
+        <app-filter-selector
+            [tags]="tags"
+            (change)="changeFilter()"
+        ></app-filter-selector>
+    </div>
+</nav>
+<section>
+    <app-exercise-list 
+        [exercises]="exercises"
+        [ngStyle]="{'backgound-color':'red'}"
+    ></app-exercise-list>
+</section>

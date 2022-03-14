@@ -1,0 +1,10 @@
+<select
+  [(ngModel)]="selected"
+  (change)="change.emit(selected)"
+>
+  <option selected value="-1">Todos</option>
+  <option
+    *ngFor="let tag of tags"
+    value="{{tag.id}}"
+  > {{ tag.title }} </option>
+</select>

@@ -1,0 +1,26 @@
+<article>
+  <header>
+    <b> {{ index }}. </b> {{ data.text }}
+  </header>
+  <footer>
+    <button 
+      *ngFor="let option of data.options; index as i"
+      class="{{ 
+        completed 
+          ? ( option.selected 
+            ? ( option.correct 
+              ? 'correct'
+              : 'incorrect'
+            )
+            : ''
+          )
+          : ( option.selected ? 'selected' : '' )
+      }}"
+      (click)="select(option)"
+    >
+      <mat-icon> {{ option.correct ? "check" : "close" }} </mat-icon>
+      <div> {{ indexToLetter(i) }} </div>
+      <label> {{ option.text }} </label>
+    </button>
+  </footer>
+</article>

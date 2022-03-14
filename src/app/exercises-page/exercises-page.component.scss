@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 100%;
+    padding: 3rem 0;
+    margin-bottom: 2rem;
+
+    div:first-of-type {
+        position: absolute;
+        left: 0;
+
+        img {
+            margin-left: 3rem;
+            transform: scaleX(-1);
+            height: 5rem;
+        }
+    }
+
+    div:last-of-type {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+section {
+    width: 60%;
+    margin: auto;
+}

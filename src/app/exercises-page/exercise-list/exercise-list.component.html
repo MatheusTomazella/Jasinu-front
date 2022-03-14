@@ -1,0 +1,7 @@
+<main [ngStyle]="ngStyle">
+  <app-exercise-item 
+    *ngFor="let data of exercises; index as i"
+    [data]="data"
+    [index]="i + 1"
+  ></app-exercise-item>
+</main>

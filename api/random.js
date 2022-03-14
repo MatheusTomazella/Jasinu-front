@@ -42,7 +42,7 @@ function genOptions () {
 }
 
 module.exports = () => {
-    const data = { exercises: [] }
+    const data = { tags, exercises: [] }
     for (let i = 0; i < casual.integer(from = 0, to = 1000); i++) {
         data.exercises.push({ 
             id: i, 

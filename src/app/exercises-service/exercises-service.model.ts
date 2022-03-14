@@ -13,11 +13,13 @@ export type ExerciseTag = {
 }
 
 export type ExerciseOption = {
-    text    : string,
-    correct : boolean
+    text      : string,
+    correct   : boolean,
+    selected? : boolean
 }
 
 export interface ExerciseQuery {
+    [index : string] : any,
     id?       : number,
     tags?     : number[],
     approved? : boolean
