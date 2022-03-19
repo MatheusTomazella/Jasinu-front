@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ExerciseObject, ExerciseQuery, ExerciseTag } from '../exercises-service/exercises-service.model';
-import { ExercisesServiceService } from '../exercises-service/exercises-service.service';
+import { ExercisesService } from '../exercises-service/exercises-service.service';
 import { FilterSelectorComponent } from './filter-selector/filter-selector.component';
 
 @Component({
@@ -15,7 +15,7 @@ export class ExercisesPageComponent implements OnInit {
   public exercises : ExerciseObject[] = [];
   public tags      : ExerciseTag[]    = [];
 
-  constructor( private exerciseService : ExercisesServiceService ) { }
+  constructor( private exerciseService : ExercisesService ) { }
 
   ngOnInit() {
     this.updateData()
@@ -25,7 +25,7 @@ export class ExercisesPageComponent implements OnInit {
   }
 
   updateData ( query? : ExerciseQuery ) {
-    this.exerciseService.fetchExercises(query)
+    this.exerciseService.fetchApprovedExercises(query)
     .subscribe( data => this.exercises = data );
   }
 

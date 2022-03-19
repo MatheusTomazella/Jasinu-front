@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class ExercisesServiceService {
+export class ExercisesService {
 
   public apiUrl : string = "http://localhost:3000";
 
@@ -17,7 +17,6 @@ export class ExercisesServiceService {
   }
 
   private extractQuery ( query? : ExerciseQuery ) : string {
-    console.log(query)
     if ( !query ) return "";
     const keys = Object.keys(query);
     if ( !keys.length ) return "";
@@ -39,12 +38,54 @@ export class ExercisesServiceService {
     return "?" + components.join("&");
   }
 
-  public fetchExercises ( query? : ExerciseQuery ) : Observable<ExerciseObject[]> {
-    console.log(`/exercises${this.extractQuery(query)}`)
+  private fetchExercises ( query? : ExerciseQuery ) : Observable<ExerciseObject[]> {
     return this.fetch( `/exercises${this.extractQuery(query)}` ) as Observable<ExerciseObject[]>;
+  }
+
+  public fetchApprovedExercises ( query? : ExerciseQuery ) : Observable<ExerciseObject[]> {
+    query = query || { };
+    query.approved = true;
+    return this.fetchExercises( query );
+  }
+
+  public fetchUnapprovedExercises ( query? : ExerciseQuery ) : Observable<ExerciseObject[]> {
+    query = query || { };
+    query.approved = false;
+    return this.fetchExercises( query );
   }
 
   public fetchTags ( ) : Observable<ExerciseTag[]> {
     return this.fetch( "/tags" ) as Observable<ExerciseTag[]>;
+  }
+
+  public setExerciseApproved ( data : ExerciseObject ) {
+    return new Promise( (resolve, reject) => {
+      if ( data.id == undefined ) return reject("Id undefined");
+      data.approved = true;
+      this.http.put(`${this.apiUrl}/exercises/${data.id}`, data)
+      .subscribe( 
+        data => {
+          resolve(data);
+        },
+        error => {
+          reject(error)
+        }
+      )
+    } )
+  }
+
+  public deleteExercise ( id : number ) {
+    return new Promise( (resolve, reject) => {
+      if ( id == undefined ) return reject("Id undefined");
+      this.http.delete(`${this.apiUrl}/exercises/${id}`)
+      .subscribe( 
+        data => {
+          resolve(data);
+        },
+        error => {
+          reject(error)
+        }
+      )
+    } )
   }
 }

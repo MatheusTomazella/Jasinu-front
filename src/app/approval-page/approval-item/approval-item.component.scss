@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+main.approved {
+    background-color: rgb(236, 255, 236);
+}
+main.rejected {
+    background-color: rgb(255, 226, 226);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+
+    button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        box-shadow: lightgray 0 3px 5px;
+        margin: 0 2rem;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+
+        button {
+            margin: 0 1rem;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<main
+  [ngStyle]="ngStyle"
+>
+  <div 
+    style="height: 100vh;display: flex;flex-direction: column;justify-content: center;"
+    *ngFor="let exercise of exercises; index as index"
+  >
+    <app-approval-item 
+      [data]="exercise"
+      [index]="index + 1"
+    ></app-approval-item>
+  </div>
+</main>

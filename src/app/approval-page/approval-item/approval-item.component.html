@@ -1,0 +1,41 @@
+<main #main [ngClass]="situationClass">
+  <app-exercise-item 
+    #exercise 
+    [data]="data"
+    [index]="index"
+  ></app-exercise-item>
+
+  <section>
+    <div class="update">
+      <button mat-icon-button
+        style="background-color: rgb(184, 250, 184);"
+        (click)="approve();"
+      >
+        <mat-icon>check</mat-icon>
+      </button>
+
+      <button mat-icon-button
+        style="background-color: rgb(247, 184, 184);"
+        (click)="reject();"
+      >
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+
+    <div class="reset">
+      <button mat-icon-button
+        class="next-button"
+        (click)="scrollToNext()"
+      >
+        <mat-icon [ngStyle]="{'font-size':'1.8rem','margin-left':'-5px','color':'gray'}">keyboard_arrow_down</mat-icon>
+      </button>
+
+      <button mat-icon-button
+        style="background-color: rgb(245, 245, 197);"
+        (click)="exercise.reset()"
+      >
+        <mat-icon>refresh</mat-icon>
+      </button>
+    </div>
+  </section>
+</main>

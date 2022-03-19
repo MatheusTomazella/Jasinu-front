@@ -22,6 +22,13 @@ export class ExerciseItemComponent implements OnInit {
     this.completed = this.data.options.filter(e => e.selected).length == this.data.options.filter(e => e.correct).length;
   } 
 
+  reset ( ) {
+    this.data.options.forEach( option => {
+      option.selected = false;
+    } );
+    this.completed = false;
+  }
+
   select ( option : ExerciseOption ) {
     if ( !this.completed ) option.selected = !option.selected;
     this.detectCompleted();

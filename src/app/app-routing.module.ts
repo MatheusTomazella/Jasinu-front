@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ApprovalPageComponent } from './approval-page/approval-page.component';
 import { ExercisesPageComponent } from './exercises-page/exercises-page.component';
 
 const routes: Routes = [
@@ -16,6 +17,11 @@ const routes: Routes = [
   {
     path: "exercises",
     component: ExercisesPageComponent,
+    pathMatch: "full"
+  },
+  {
+    path: "approve",
+    component: ApprovalPageComponent,
     pathMatch: "full"
   }
 ];
