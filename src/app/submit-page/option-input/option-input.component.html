@@ -1,0 +1,32 @@
+<section>
+  <h1>{{index}}.</h1>
+
+  <mat-form-field>
+    <textarea 
+      #input
+      matInput 
+      cdkTextareaAutosize
+      (input)="text = input.value; onChange.emit()"
+    ></textarea>
+  </mat-form-field>
+
+  <button 
+    mat-icon-button
+    [ngClass]="correct ? 'correct' : 'incorrect'"
+    (click)="correct = !correct; onChange.emit()"
+  >
+    <mat-icon>{{
+      correct
+      ? 'check'
+      : 'close'
+    }}</mat-icon>
+  </button>
+
+  <button
+    mat-icon-button
+    class="delete"
+    (click)="onDelete.emit()"
+  >
+    <mat-icon>close</mat-icon>
+  </button>
+</section>

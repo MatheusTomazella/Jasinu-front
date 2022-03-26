@@ -1,0 +1,10 @@
+<main>
+  <mat-checkbox
+    #checkbox
+    *ngFor="let tag of tags"
+    [checked]="tag.selected || false"
+    (change)="tag.selected = checkbox.checked; updateSelected()"
+  >
+    {{tag.title}}
+  </mat-checkbox>
+</main>

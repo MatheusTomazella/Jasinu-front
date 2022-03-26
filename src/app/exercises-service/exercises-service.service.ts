@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ExerciseObject, ExerciseQuery, ExerciseTag } from './exercises-service.model';
+import { ExerciseAddObject, ExerciseObject, ExerciseQuery, ExerciseTag } from './exercises-service.model';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -87,5 +87,9 @@ export class ExercisesService {
         }
       )
     } )
+  }
+
+  public addExercise ( obj : ExerciseAddObject ) {
+    return this.http.post(`${this.apiUrl}/exercises`, obj)
   }
 }

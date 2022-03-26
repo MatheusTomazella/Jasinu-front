@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ApprovalPageModule } from './approval-page/approval-page.module';
 import { ExercisesPageModule } from './exercises-page/exercises-page.module';
+import { SubmitPageModule } from './submit-page/submit-page.module';
 
 @NgModule({
   declarations: [			
@@ -18,7 +19,8 @@ import { ExercisesPageModule } from './exercises-page/exercises-page.module';
     HttpClientModule,
     BrowserAnimationsModule,
     ExercisesPageModule,
-    ApprovalPageModule
+    ApprovalPageModule,
+    SubmitPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

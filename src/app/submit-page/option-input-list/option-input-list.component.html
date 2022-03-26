@@ -1,0 +1,22 @@
+<main>
+  <app-option-input
+    *ngFor="let option of options; index as index"
+    #input
+    [index]="index + 1"
+    [id]="option.id"
+    [text]="option.text"
+    [correct]="option.correct"
+    (onDelete)="deleteOption(option.id)"
+    (onChange)="
+      option.text = input.text; 
+      option.correct = input.correct; 
+      onChange.emit()
+    "
+  ></app-option-input>
+
+  <div>
+    <button mat-icon-button (click)="addOption()">
+      <mat-icon>add</mat-icon>
+    </button>
+  </div>
+</main>

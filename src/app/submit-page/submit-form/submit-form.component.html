@@ -1,0 +1,56 @@
+<main>
+  <section>
+    <mat-form-field>
+      <textarea
+        #textInput 
+        rows="4" 
+        cdkTextareaAutosize 
+        matInput
+        [value]="text"
+        (input)="text = textInput.value"
+      ></textarea>
+      <mat-placeholder class="placeholder">Enunciado</mat-placeholder>
+    </mat-form-field>
+    
+    <app-option-input-list
+      #optionsInput
+      (onChange)="options = optionsInput.options"
+    ></app-option-input-list>
+
+    <div>
+      <app-tag-selector
+        #tagSelector
+        (onChange)="tags = tagSelector.selectedTags"
+      ></app-tag-selector>
+
+      <mat-form-field>
+        <textarea
+          #explanationInput
+          rows="4" 
+          cdkTextareaAutosize 
+          matInput
+          [value]="explanation"
+          (input)="explanation = explanationInput.value"
+        ></textarea>
+        <mat-placeholder class="placeholder">Explicação</mat-placeholder>
+      </mat-form-field>
+    </div>
+  </section>
+
+  <footer>
+    <button 
+      mat-button 
+      class="clear"
+      (click)="clear()"
+    >
+      Limpar
+    </button>
+    <button 
+      mat-button 
+      class="save"
+      (click)="save()"
+    >
+      Salvar
+    </button>
+  </footer>
+</main>

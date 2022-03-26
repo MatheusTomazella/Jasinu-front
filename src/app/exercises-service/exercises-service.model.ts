@@ -24,3 +24,11 @@ export interface ExerciseQuery {
     tags?     : number[],
     approved? : boolean
 }
+
+export interface ExerciseAddObject {
+    text        : string,
+    tags        : number[],
+    options     : ExerciseOption[],
+    explanation : string,
+    approved    : boolean
+}

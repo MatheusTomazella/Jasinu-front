@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+    
+    h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+        width: 5%;
+        height: 100%;
+    }
+
+    mat-form-field {
+        width: 90%;  
+        
+        ::ng-deep div.mat-form-field-infix {
+            margin: 0;
+            border: none;
+        }
+    }
+
+    button {
+        margin-left: 1rem;
+    }
+    button.correct {
+        background-color: rgb(184, 250, 184);
+    }
+    button.incorrect {
+        background-color: rgb(247, 184, 184);
+    }
+    button.delete {
+        mat-icon {
+            font-size: 1rem;
+        }
+    }
+}
