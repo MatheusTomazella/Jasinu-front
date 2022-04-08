@@ -23,4 +23,8 @@
       <label> {{ option.text }} </label>
     </button>
   </footer>
+  <section *ngIf="completed">
+    <b>Explicação:</b><br><br>
+    {{ data.explanation }}
+  </section>
 </article>

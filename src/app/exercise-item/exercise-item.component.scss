@@ -1,5 +1,5 @@
 article {
-    margin-bottom: 2rem;
+    margin-bottom: 6rem;
 }
 
 header {
@@ -60,4 +60,11 @@ button.incorrect {
 }
 button.selected {
     background-color: rgb(247, 247, 247);
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2rem 1rem 0 1rem;
+    padding: 1rem;
 }

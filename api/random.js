@@ -50,7 +50,7 @@ module.exports = () => {
             tags: chooseTags(),
             options: genOptions(),
             approved: casual.boolean,
-            explanation: casual.url
+            explanation: casual.text
         })
     }
     return data
