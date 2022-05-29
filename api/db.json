@@ -1,8 +1,843 @@
 {
-    "exercises": [
+  "tags": [
+    {
+      "id": 1,
+      "title": "Português"
+    },
+    {
+      "id": 2,
+      "title": "Matemática"
+    },
+    {
+      "id": 3,
+      "title": "Sociologia"
+    },
+    {
+      "id": 4,
+      "title": "História"
+    },
+    {
+      "id": 5,
+      "title": "Biologia"
+    },
+    {
+      "id": 6,
+      "title": "Geografia"
+    },
+    {
+      "id": 7,
+      "title": "Filosofia"
+    }
+  ],
+  "exercises": [
+    {
+      "id": 1,
+      "text": "(...) Da garrafa estilhaçada, no ladrilho já sereno escorre uma coisa espessa que é leite, sangue... não sei. Por entre objetos confusos, mal redimidos da noite, duas cores se procuram, suavemente se tocam, amorosamente se enlaçam, formando um terceiro tom a que chamamos aurora.\n(Carlos Drummond de Andrade)\n\nNo fragmento anterior, Carlos Drummond de Andrade constrói, poeticamente, a aurora. O que permite visualizar este momento do dia corresponde:",
+      "tags": [
+        1
+      ],
+      "options": [
         {
-            "id": 1
-            
+          "text": "a objetos confusos mal redimido da noite.",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "text": "à garrafa estilhaçada e ao ladrilho sereno.",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "text": "à aproximação suave de dois corpos.",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "text": "ao enlace amoroso de duas cores.",
+          "correct": true,
+          "selected": true
+        },
+        {
+          "text": "ao fluir espesso do sangue sobre o ladrilho.",
+          "correct": false,
+          "selected": false
         }
-    ]
+      ],
+      "approved": true,
+      "explanation": "Com a leitura do trecho acima, compreendemos que a descrição feita pelo escritor é a respeito da aurora, ou seja, o momento do nascer do sol em que observamos uma mistura de cores com a saída da noite e chegada do dia."
+    },
+    {
+      "text": "A essência da teoria democrática é a supressão de qualquer imposição de classe, fundada no postulado ou na crença de que os conflitos e problemas humanos – econômicos, políticos, ou sociais – são solucionáveis pela educação, isto é, pela cooperação voluntária, mobilizada pela opinião pública esclarecida. Está claro que essa opinião pública terá de ser formada à luz dos melhores conhecimentos existentes e, assim, a pesquisa científica nos campos das ciências naturais e das chamadas ciências sociais deverá se fazer a mais ampla, a mais vigorosa, a mais livre, e a difusão desses conhecimentos, a mais completa, a mais imparcial e em termos que os tornem acessíveis a todos.\n\n\t\t\t\t(Anísio Teixeira, Educação é um direito. Adaptado.)\n\n\t\t\t\tNo trecho “chamadas ciências sociais”, o emprego do termo “chamadas” indica que o autor",
+      "options": [
+        {
+          "id": 0,
+          "text": "vê, nas “ciências sociais”, uma panaceia, não uma análise crítica da sociedade.",
+          "correct": false
+        },
+        {
+          "id": 1,
+          "text": "considera utópicos os objetivos dessas ciências.",
+          "correct": false
+        },
+        {
+          "id": 2,
+          "text": "prefere a denominação “teoria social” à denominação “ciências sociais”.",
+          "correct": false
+        },
+        {
+          "id": 3,
+          "text": "discorda dos pressupostos teóricos dessas ciências.",
+          "correct": true
+        },
+        {
+          "id": 4,
+          "text": "utiliza com reserva a denominação “ciências sociais”.",
+          "correct": false
+        }
+      ],
+      "tags": [
+        1
+      ],
+      "approved": false,
+      "explanation": "Ao utilizar a palavra “chamadas” antes de “ciências sociais”, o autor do texto evita a generalização do termo, utilizando-o com reserva.",
+      "id": 2
+    },
+    {
+			"id": 3,
+			"text": "Leia o trecho de Quincas Borba, de Machado de Assis: E enquanto uma chora, outra ri; é a lei do mundo, meu rico senhor; é a perfeição universal. Tudo chorando seria monótono, tudo rindo cansativo; mas uma boa distribuição de lágrimas e polcas, soluços e sarabandas, acaba por trazer à alma do mundo a variedade necessária, e faz-se o equilíbrio da vida. (Quincas Borba, 1992.) De acordo com o narrador,",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "os erros do passado não afetam o presente.",
+					"correct": false
+				},
+				{
+					"text": "a existência é marcada por antagonismos.",
+					"correct": true
+				},
+				{
+					"text": "a sabedoria está em perseguir a felicidade.",
+					"correct": false
+				},
+				{
+					"text": "cada instante vivido deve ser festejado.",
+					"correct": false
+				},
+				{
+					"text": "os momentos felizes são mais raros que os tristes.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "A partir da leitura do trecho de Quincas Borba, fica claro que a vida é marcada por diferentes antagonismos ou oposições (chora e ri), e isso é o que denota seu equilíbrio."
+    },
+    {
+			"id": 4,
+			"text": "Leia estes versos:\n\n“As ondas amarguradas\nEncostam a cabeça nas pedras do cais.\nAté as ondas possuem\nUma pedra para descansar a cabeça.\nEu na verdade possuo\nTodas as pedras que há no mundo,\nMas não descanso”.\n\n(Murilo Mendes)\n\nA figura de linguagem que ocorre nos versos 5 e 6 é:",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "metáfora",
+					"correct": false
+				},
+				{
+					"text": "sinédoque",
+					"correct": false
+				},
+				{
+					"text": "hipérbole",
+					"correct": true
+				},
+				{
+					"text": "aliteração",
+					"correct": false
+				},
+				{
+					"text": "anáfora",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "A hipérbole é uma figura de pensamento que apresenta um exagero intencional do autor para dar ênfase às expressões. Observamos a presença da ideia intensificada em “todas as pedras que há no mundo”, porque é um exagero alguém dizer que tem todas essas pedras."
+    },
+    {
+			"id": 5,
+			"text": "As conjunções coordenativas são aquelas que conectam duas orações independentes. A alternativa abaixo que não contém esse tipo de conjunção é",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "Minha amiga é mais esperta do que eu.",
+					"correct": true
+				},
+				{
+					"text": "Chegou atrasado, porém conseguiu assistir a aula.",
+					"correct": false
+				},
+				{
+					"text": "Sônia não gosta de macarrão nem de nhoque.",
+					"correct": false
+				},
+				{
+					"text": "Chove muito, portanto não iremos à praia hoje.",
+					"correct": false
+				},
+				{
+					"text": "Não foi à escola, porque estava doente.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "A opção correta apresenta uma conjunção subordinativa comparativa “do que” a qual expressa a ideia de comparação.\nNas outras alternativas, temos:\nb) porém - conjunção coordenativa adversativa que expressa oposição, contraste.\nc) nem - conjunção coordenativa aditiva que expressa soma, adição.\nd) portanto - conjunção coordenativa conclusiva que expressa conclusão.\ne) porque - conjunção coordenativa explicativa que expressa razão, motivo."
+    },
+    {
+			"id": 6,
+			"text": "Cidade grande\nQue beleza, Montes Claros.\nComo cresceu Montes Claros.\nQuanta indústria em Montes Claros.\nMontes Claros cresceu tanto,\nficou urbe tão notória,\nrima-rica do Rio de Janeiro,\nque já tem cinco favelas\npor enquanto, e mais promete.\n\n(Carlos Drummond de Andrade)\n\nEntre os recursos expressivos empregados no texto, destaca-se a",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "metalinguagem, que consiste em fazer a linguagem referir-se à própria linguagem.",
+					"correct": false
+				},
+				{
+					"text": "intertextualidade, na qual o texto retoma e reelabora outros textos.",
+					"correct": false
+				},
+				{
+					"text": "ironia, que consiste em se dizer o contrário do que se pensa, com intenção crítica.",
+					"correct": true
+				},
+				{
+					"text": "denotação, caracterizada pelo uso das palavras em seu sentido próprio e objetivo.",
+					"correct": false
+				},
+				{
+					"text": "prosopopeia, que consiste em personificar coisas inanimadas, atribuindo-lhes vida.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "A ironia é uma figura de pensamento em que se expressa o oposto daquilo que se pensa. Assim, Drummond utiliza esse recurso estilístico com a finalidade de criticar o desenvolvimento da cidade mineira Montes Claros."
+    },
+    {
+			"id": 7,
+			"text": "Em uma grande concessionária de São Paulo leu-se a seguinte chamada: “Queima total de seminovos”. A mesma estratégia foi utilizada em uma chamada de um grande hipermercado, em que se podia ler: “Grande queima de colchões”. Acerca dos sentidos criados por essas chamadas, é apropriado afirmar que",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "em ambas há uma utilização da linguagem em seu sentido estritamente literal.",
+					"correct": false
+				},
+				{
+					"text": "apenas em uma delas a linguagem foi utilizada em seu sentido estritamente literal.",
+					"correct": false
+				},
+				{
+					"text": "em ambas o sentido é metafórico e é apreendido pela associação com o contexto.",
+					"correct": true
+				},
+				{
+					"text": "em ambas o sentido é metafórico e é apreendido apenas pelas regras gramaticais.",
+					"correct": false
+				},
+				{
+					"text": "em ambas o sentido é metafórico e não pode ser apreendido porque é incoerente.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "A ação de “queimar” é comparada à ação de “liquidar”, ou seja, vender tudo, daí a utilização da metáfora, que é apropriada ao seu contexto."
+    },
+    {
+			"id": 8,
+			"text": "Encontramos pronome indefinido em:",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "Muitas horas depois, ela ainda permanecia esperando o resultado.",
+					"correct": true
+				},
+				{
+					"text": "Foram amargos aqueles minutos, desde que resolveu abandoná-las.",
+					"correct": false
+				},
+				{
+					"text": "A nós, provavelmente, enganariam, pois nossa participação foi ativa.",
+					"correct": false
+				},
+				{
+					"text": "Havia necessidade de que tais ideias ficassem sepultadas.",
+					"correct": false
+				},
+				{
+					"text": "Sabíamos o que você deveria dizer-lhe ao chegar da festa.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "“Muitas” é pronome indefinido."
+    },
+    {
+			"id": 9,
+			"text": "Indique a alternativa correta:",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "Prefiro correr do que nadar.",
+					"correct": false
+				},
+				{
+					"text": "Prefiro mais correr que nadar.",
+					"correct": false
+				},
+				{
+					"text": "Prefiro mais correr a nadar.",
+					"correct": false
+				},
+				{
+					"text": "Prefiro correr a nadar.",
+					"correct": true
+				},
+				{
+					"text": "Prefiro correr à nadar.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "O verbo preferir deve sempre ser seguido da preposição \"a\". A construção de frases com esse verbo deve ser: preferir (algo) a. Na língua culta não se deve utilizar intensificadores, tal como aconteceu na alternativa c) (prefiro mais correr)."
+    },
+    {
+			"id": 10,
+			"text": "Considere a seguinte informação extraída de uma notícia de jornal:\n43% dos domicílios do Brasil são inadequados para moradia, diz IBGE. Taxa representa 24,7 milhões dos 57,5 milhões de lares no país em 2008. Em 1992, porém, 63,2% das casas não eram consideradas adequadas.\nA conexão entre as afirmações feita com o uso de “porém” destaca que os índices de domicílios inadequados para moradia em 2008 e 1992:",
+			"tags": [ 1 ],
+			"options": [
+				{
+					"text": "são semelhantes: os índices eram muito altos em 1992 e continuam altos em 2008.",
+					"correct": false
+				},
+				{
+					"text": "estão em oposição: mesmo altos, os índices de 2008 revelam uma melhoria em relação a 1992.",
+					"correct": true
+				},
+				{
+					"text": "são contraditórios: os dados de 2008 mostram resultados opostos ao que se poderia prever a partir dos dados de 1992.",
+					"correct": false
+				},
+				{
+					"text": "apontam para direções contrárias: revelam um retrocesso na adequação das moradias entre 1992 e 2008.",
+					"correct": false
+				},
+				{
+					"text": "são complementares: os índices de 2008 eram previsíveis a partir dos dados de 1992.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "A conjunção \"porém\" traz a ideia de oposição: Os dados de 2008 são elevados, no entanto, são menores dos de 1992, ou seja, houve melhoria."
+    },
+    {
+			"id": 11,
+			"text": "Sabendo que x=20¹⁰⁰ e y=400⁵⁰ pode-se afirmar que:\nAssinale a alternativa CORRETA.",
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "x é igual a y.",
+					"correct": true
+				},
+				{
+					"text": "x é a metade de y.",
+					"correct": false
+				},
+				{
+					"text": "x é o dobro de y.",
+					"correct": false
+				},
+				{
+					"text": "x é igual ao quadrado de y.",
+					"correct": false
+				},
+				{
+					"text": "x é igual ao quádruplo y.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "Fatorando o 400, podemos escrever:\n400 = 20 x 20 = 20²\nDesta forma, y pode ser escrito como uma potência de base 20, multiplicando-se os expoentes.\ny=400⁵⁰\ny=(20²)⁵⁰\ny=20¹⁰⁰\nPortanto, x é igual a y."
+    },
+    {
+			"id": 12,
+			"text": "O diretor de uma escola convidou os 280 alunos de terceiro ano a participarem de uma brincadeira. Suponha que existem 5 objetos e 6 personagens numa casa de 9 cômodos; um dos personagens esconde um dos objetos em um dos cômodos da casa.\nO objetivo da brincadeira é adivinhar qual objeto foi escondido por qual personagem e em qual cômodo da casa o objeto foi escondido. Todos os alunos decidiram participar. A cada vez um aluno é sorteado e dá a sua resposta.\nAs respostas devem ser sempre distintas das anteriores, e um mesmo aluno não pode ser sorteado mais de uma vez. Se a resposta do aluno estiver correta, ele é declarado vencedor e a brincadeira é encerrada.\nO diretor sabe que algum aluno acertará a resposta porque há:",
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "10 alunos a mais do que possíveis respostas distintas",
+					"correct": true
+				},
+				{
+					"text": "20 alunos a mais do que possíveis respostas distintas",
+					"correct": false
+				},
+				{
+					"text": "119 alunos a mais do que possíveis respostas distintas",
+					"correct": false
+				},
+				{
+					"text": "260 alunos a mais do que possíveis respostas distintas",
+					"correct": false
+				},
+				{
+					"text": "270 alunos a mais do que possíveis respostas distintas",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "1º passo: determinar o número total de possibilidades utilizando o princípio multiplicativo.\n6 . 5 . 9 = 270\n2º passo: interpretar o resultado.\nSe cada aluno deve ter uma resposta e foram selecionados 280 alunos, entende-se que o diretor sabe que algum aluno acertará a resposta porque há 10 alunos a mais do que a quantidade de respostas possíveis."
+    },
+    {
+			"id": 13,
+			"text": "Segundo dados do Instituto Internacional de Pesquisa da Paz de Estocolmo (Simpri), os gastos militares dos Estados Unidos vêm crescendo nos últimos anos, passando de 528,7 bilhões de dólares, em 2006, para 606,4 bilhões de dólares, em 2009. Considerando que este aumento anual venha acontecendo de forma linear, formando uma progressão aritmética, qual será, em bilhões de dólares, o gasto militar dos Estados Unidos em 2010?",
+				
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "612,5",
+					"correct": false
+				},
+				{
+					"text": "621,3",
+					"correct": false
+				},
+				{
+					"text": "632,3",
+					"correct": true
+				},
+				{
+					"text": "658,5",
+					"correct": false
+				},
+				{
+					"text": "684,1",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "Como o aumento foi de 2006 para 2009, podemos considerar o valor em 2006, que era de 528,7 bilhões como sendo o a1 (primeiro termo da PA) e, a4 igual a 606,4 bilhões em 2009.\nUsando a fórmula do termo geral para encontrar a razão.\na4 = a1 + (4-1)r\na4 - a1 = 3r\n606,4 - 528,7 = 3r\n77,7 = 3r\nr = 77,7/3\nr = 25,9\nSendo assim, o quinto termo dessa PA é a4 + r = 632,3 bilhões."
+    },
+    {
+			"id": 14,
+			"text": "Sob a orientação de um mestre de obras, João e Pedro trabalharam na reforma de um edifício. João efetuou reparos na parte hidráulica nos andares 1, 3, 5, 7, e assim sucessivamente, de dois em dois andares. Pedro trabalhou na parte elétrica nos andares 1, 4, 7, 10, e assim sucessivamente, de três em três andares. Coincidentemente, terminaram seus trabalhos no último andar. Na conclusão da reforma, o mestre de obras informou, em seu relatório, o número de andares do edifício. Sabe-se que, ao longo da execução da obra, em exatamente 20 andares, foram realizados reparos nas partes hidráulica e elétrica por João e Pedro.\nQual é o número de andares desse edifício?",
+				
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "40",
+					"correct": false
+				},
+				{
+					"text": "60",
+					"correct": false
+				},
+				{
+					"text": "100",
+					"correct": false
+				},
+				{
+					"text": "115",
+					"correct": true
+				},
+				{
+					"text": "120",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "1º passo: interpretar os dados da questão.\nJoão efetua reparos em intervalos de 2. (1,3,5,7,9,11,13...)\nPedro trabalha em intervalos de 3 (1,4,7,10,13,16...)\nEles se encontram a cada 6 andares (1,7,13...)\n2º passo: escrever a equação de progressão aritmética sabendo que o último andar é o vigésimo.\nAₙ = A₁ + (n - 1) . r\nA₂₀ = 1 + (20 - 1) . 6\nA₂₀ = 115"
+    },
+    {
+			"id": 15,
+			"text": "Uma empresa especializada em conservação de piscinas utiliza um produto para tratamento da água cujas especificações técnicas sugerem que seja adicionado 1,5 mL desse produto para cada 1 000 L de água da piscina. Essa empresa foi contratada para cuidar de uma piscina de base retangular, de profundidade constante igual a 1,7 m, com largura e comprimento iguais a 3 m e 5 m, respectivamente. O nível da lâmina d’água dessa piscina é mantido a 50 cm da borda da piscina.\nA quantidade desse produto, em mililitro, que deve ser adicionada a essa piscina de modo a atender às suas especificações técnicas é",
+				
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "11,25.",
+					"correct": false
+				},
+				{
+					"text": "27,00.",
+					"correct": true
+				},
+				{
+					"text": "28,80.",
+					"correct": false
+				},
+				{
+					"text": "32,25.",
+					"correct": false
+				},
+				{
+					"text": "49,50.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "1º passo: calcular o volume da piscina com base nos dados de profundidade, largura e comprimento.\nreto V espaço igual a espaço 1 vírgula 7 espaço reto m espaço. espaço 3 espaço reto m espaço. espaço 5 espaço reto m reto V espaço igual a espaço 18 espaço reto m à potência de 3 espaço fim do exponencial igual a espaço 18 espaço 000 espaço reto L\n2º passo: calcular a quantidade de produto que deve ser adicionada à piscina.\n1,5mL - 1000L\nx mL - 18000L\nx = 1,5mL . 18000L⁄1000L\nx = 27mL"
+    },
+    {
+			"id": 16,
+			"text": "Numa escola com 1.200 alunos foi realizada uma pesquisa sobre o conhecimento desses em duas línguas estrangeiras: inglês e espanhol.\nNessa pesquisa constatou-se que 600 alunos falam inglês, 500 falam espanhol e 300 não falam qualquer um desses idiomas.\nEscolhendo-se um aluno dessa escola ao acaso e sabendo-se que ele não fala inglês, qual a probabilidade de que esse aluno fale espanhol?",
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "1/2",
+					"correct": true
+				},
+				{
+					"text": "5/8",
+					"correct": false
+				},
+				{
+					"text": "1/4",
+					"correct": false
+				},
+				{
+					"text": "5/6",
+					"correct": false
+				},
+				{
+					"text": "5/14",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "1º passo: determinar o número de alunos que falam pelo menos uma língua.\n1200 - 300 = 900\n2º passo: determinar o número de alunos que falam inglês e espanhol.\n(600 - x) + (500 - x) + x = 900\n- x - x + x = 900 - 600 - 500\n- x = - 200 . (-1)\nx = 200\n3º passo: calcular a probabilidade do aluno falar espanhol e não falar inglês.\n1200 - 600 = 600\n500 - 200 = 300\n300⁄600 = 1⁄2"
+    },
+    {
+			"id": 17,
+			"text": "Com o avanço em ciência da computação, estamos próximos do momento em que o número de transistores no processador de um computador pessoal será da mesma ordem de grandeza que o número de neurônios em um cérebro humano, que é da ordem de 100 bilhões.\nUma das grandezas determinantes para o desempenho de um processador é a densidade de transistores, que é o número de transistores por centímetro quadrado. Em 1986, uma empresa fabricava um processador contendo 100 000 transistores distribuídos em 0,25 cm² de área. Desde então, o número de transistores por centímetro quadrado que se pode colocar em um processador dobra a cada dois anos (Lei de Moore).\nConsidere 0,30 como aproximação para log₁₀2\nEm que ano a empresa atingiu ou atingirá a densidade de 100 bilhões de transistores?",
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "1999",
+					"correct": false
+				},
+				{
+					"text": "2002",
+					"correct": false
+				},
+				{
+					"text": "2022",
+					"correct": true
+				},
+				{
+					"text": "2026",
+					"correct": false
+				},
+				{
+					"text": "2146",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": ""
+    },
+    {
+			"id": 18,
+			"text": "Antônio, Joaquim e José são sócios de uma empresa cujo capital é dividido, entre os três, em partes proporcionais a: 4, 6 e 6, respectivamente. Com a intenção de igualar a participação dos três sócios no capital da empresa, Antônio pretende adquirir uma fração do capital de cada um dos outros dois sócios.\nA fração do capital de cada sócio que Antônio deverá adquirir é",
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "1/2",
+					"correct": false
+				},
+				{
+					"text": "1/3",
+					"correct": false
+				},
+				{
+					"text": "1/9",
+					"correct": true
+				},
+				{
+					"text": "2/3",
+					"correct": false
+				},
+				{
+					"text": "4/3",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "Do enunciado sabemos que a empresa foi dividida em 16 partes, pois 4 + 6 + 6 = 16.\nEssas 16 partes devem ser divididas em três partes iguais para os sócios.\nComo 16/3 não é uma divisão exata, podemos multiplicar por um valor comum, sem perder a proporcionalidade.\nVamos multiplicar por 3 e verificar a igualdade.\n4 . 3 + 6 . 3 + 6 . 3 = 16 . 3\n12 + 18 + 18 = 48\n48 = 48\nDividindo 48 por 3 o resultado é exato.\n48/3 = 16\nAgora, a empresa está dividida em 48 partes, das quais:\nAntônio possui 12 partes das 48.\nJoaquim possui 18 partes das 48.\nJosé possui 18 partes das 48.\nDessa forma, Antônio, que já tem 12, precisa receber mais 4 para ficar com 16.\nPor isso, cada um dos outros sócios, precisam passar 2 partes, das 18, para Antônio.\nA fração que Antônio precisa adquirir de casa sócio é 2/18, simplificando:\n2/18 = 1/9"
+    },
+    {
+			"id": 19,
+			"text": "Qual a fração que dá origem à dízima 2,54646… em representação decimal?",
+				
+			"tags": [ 2 ],
+			"options": [
+				{
+					"text": "2.521 / 990",
+					"correct": true
+				},
+				{
+					"text": "2.546 / 999",
+					"correct": false
+				},
+				{
+					"text": "2.546 / 990",
+					"correct": false
+				},
+				{
+					"text": "2.546 / 900",
+					"correct": false
+				},
+				{
+					"text": "2.521 / 999",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "A parte (período) que se repete é o 46.\nUma estratégia usual para encontrar a fração geratriz é isolar a parte que se repete, de duas formas.\nChamando 2,54646… de x, temos:\nX = 2,54646… (equação 1)\nNa equação 1, multiplicando por 10 os dois lados da igualdade , temos:\n10x = 25,4646… (equação 2)\nNa equação 1, multiplicando por 1000 os dois lados da igualdade, temos:\n100x = 2546,4646… (equação 2)\nAgora que nos dois resultados, apenas o 46 se repete, para eliminá-lo, vamos subtrair a segunda equação da primeira.\n1000x = 2546,4646\n-10x = 25,4646 ⁄ 990x = 2521,0000\n990x = 2521\nIsolando x, temos:\nx = 2521/990"
+    },
+    {
+			"id": 20,
+			"text": "O pantanal é um dos mais valiosos patrimônios naturais do Brasil. É a maior área úmida continental do planeta - com aproximadamente 210 mil km2, sendo 140 mil km2 em território brasileiro, cobrindo parte dos estados de Mato Grosso e Mato Grosso do Sul. As chuvas fortes são comuns nessa região. O equilíbrio desse ecossistema depende, basicamente, do fluxo de entrada e saída de enchentes. As cheias chegam a cobrir até 2/3 da área pantaneira. Durante o período chuvoso, a área alagada pelas enchentes pode chegar a um valor aproximado de:",
+				
+			"tags": [  ],
+			"options": [
+				{
+					"text": "91,3 mil km2",
+					"correct": false
+				},
+				{
+					"text": "93,3 mil km²",
+					"correct": false
+				},
+				{
+					"text": "140 mil km²",
+					"correct": true
+				},
+				{
+					"text": "152,1 mil km²",
+					"correct": false
+				},
+				{
+					"text": "233,3 mil km²",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "Primeiramente, devemos anotar os valores oferecidos pelo exercício:\n210 mil km²: total da área\n2/3 é o valor que as cheias cobrem dessa área\nPara resolver basta saber o valor dos 2/3 de 210 mil Km²\n210.000 . 2/3 = 420 000/3 = 140 mil km²\nPortanto, durante o período chuvoso, a área alagada pelas enchentes pode chegar a um valor aproximado de 140 mil km²."
+    },
+    {
+			"id": 21,
+			"text": "A moralidade, Bentham exortava, não é uma questão de agradar a Deus, muito menos de fidelidade a regras abstratas. A moralidade é a tentativa de criar a maior quantidade de felicidade possível neste mundo. Ao decidir o que fazer, deveríamos, portanto, perguntar qual curso de conduta promoveria a maior quantidade de felicidade para todos aqueles que serão afetados.\nRACHELS, J. Os elementos da filosofia moral. Barueri-SP: Manole, 2006.\nOs parâmetros da ação indicados no texto estão em conformidade com uma",
+				
+			"tags": [ 3 ],
+			"options": [
+				{
+					"text": "fundamentação científica de viés positivista.",
+					"correct": false
+				},
+				{
+					"text": "convenção social de orientação normativa.",
+					"correct": false
+				},
+				{
+					"text": "transgressão comportamental religiosa.",
+					"correct": false
+				},
+				{
+					"text": "racionalidade de caráter pragmático.",
+					"correct": true
+				},
+				{
+					"text": "inclinação de natureza passional.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "Os ideais iluministas trazem consigo a racionalidade e a Razão como força revolucionária ou de negação à perspectiva medieval de submeter a razão à fé.\nO pensador inglês Jeremy Bentham (1748-1832), defensor do utilitarismo, propõe que a racionalidade esteja ancorada em sua relação com a prática e a utilidade, reforçando o caráter pragmático da razão.\nAs outras alternativas estão erradas porque:\nA) A visão positivista pressupõe a possibilidade de um método científico para a validade de um processo. O texto toma como valor fundamental a felicidade.\nA felicidade não tende a ser um valor passível de quantificação através de um método, e sim do ponto de vista de oposição ao sofrimento. Por isso, não podemos associar uma visão positivista à ideia de “maior quantidade de felicidade”.\nB) A afirmação contida no texto não se trata de uma convenção social, mas de uma norma que deve partir do próprio indivíduo enquanto ser social.\nC) Por se tratar de um período com forte influência iluminista, há uma cisão com a moralidade fundamentada teologicamente. A proposta é sustentada sem nenhuma relação com a religião.\nE) Apesar da felicidade remeter às emoções e poder ser compreendida em seu aspecto passional, a perspectiva assumida no texto possui um caráter unicamente racional. Não se trata de uma concepção baseada em inclinações ou fundamentadas na subjetividade, e sim como um universal racional."
+    },
+    {
+			"id": 22,
+			"text": "O conceito de democracia, no pensamento de Habermas, é construído a partir de uma dimensão procedimental, calcada no discurso e na deliberação. A legitimidade democrática exige que o processo de tomada de decisões políticas ocorra a partir de uma ampla discussão pública, para somente então decidir. Assim, o caráter deliberativo corresponde a um processo coletivo de ponderação e análise, permeado pelo discurso, que antecede a decisão.\nVITALE, D. Jürgen Habermas, modernidade e democracia deliberativa. Cadernos do CRH (UFBA), v. 19, 2006 (adaptado).\nO conceito de democracia proposto por Jürgen Habermas pode favorecer processos de inclusão social. De acordo com o texto, é uma condição para que isso aconteça o(a)",
+				
+			"tags": [ 3 ],
+			"options": [
+				{
+					"text": "participação direta periódica do cidadão.",
+					"correct": false
+				},
+				{
+					"text": "debate livre e racional entre cidadãos e Estado.",
+					"correct": true
+				},
+				{
+					"text": "interlocução entre os poderes governamentais.",
+					"correct": false
+				},
+				{
+					"text": "eleição de lideranças políticas com mandatos temporários.",
+					"correct": false
+				},
+				{
+					"text": "controle do poder político por cidadãos mais esclarecidos.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "O Pensamento de Habermas é marcado pela chamada democracia deliberativa. Nela, o debate livre e racional entre cidadãos e Estado estabeleceria as bases necessárias para a participação e a cidadania.\nAs outras alternativas estão erradas porque:\nA) A participação do cidadão é uma preocupação no que diz respeito à legitimação do Estado. Entretanto, para o autor, essa participação é contínua, não acontece em períodos específicos.\nC) Para Habermas, a democracia é pautada no poder do povo através da deliberação coletiva em todas as decisões do Estado. Assim, não tem como base a interlocução entre os poderes do governo.\nD) Habermas propõe que o amplo debate seja realizado publicamente, e não como reforço da democracia representativa, em que somente os políticos eleitos são os responsáveis por defender os interesses de seus eleitores.\nE) O autor propõe o esclarecimento dos cidadãos para que todos possam agir criticamente e não uma sofocracia (governo dos mais sábios)."
+    },
+    {
+			"id": 23,
+			"text": "A maior parte das agressões e manifestações discriminatórias contra as religiões de matrizes africanas ocorrem em locais públicos (57%). É na rua, na via pública, que tiveram lugar mais de 2/3 das agressões, geralmente em locais próximos às casas de culto dessas religiões. O transporte público também é apontado como um local em que os adeptos das religiões de matrizes africanas são discriminados, geralmente quando se encontram paramentados por conta dos preceitos religiosos.\nREGO, L. F.; FONSECA, D. P. R.; GIACOMINI, S. M.. Rio de Janeiro: PUC-Rio, 2014.\nAs práticas descritas no texto são incompatíveis com a dinâmica de uma sociedade laica e democrática porque",
+				
+			"tags": [ 3 ],
+			"options": [
+				{
+					"text": "asseguram as expressões multiculturais.",
+					"correct": false
+				},
+				{
+					"text": "promovem a diversidade de etnias.",
+					"correct": false
+				},
+				{
+					"text": "falseiam os dogmas teológicos.",
+					"correct": false
+				},
+				{
+					"text": "estimulam os rituais sincréticos.",
+					"correct": false
+				},
+				{
+					"text": "restringem a liberdade de credo.",
+					"correct": true
+				}
+			],
+			"approved": true,
+			"explanation": "Uma sociedade laica é aquela que não possui uma religião oficial. Assim, há uma separação entre o Estado e a religião.\nPor sua vez, dentro de uma sociedade democrática admiti-se a pluralidade de comportamentos, hábitos e culturas.\nDesse modo, qualquer manifestação de intolerância religiosa ou restrição à liberdade de credo é incompatível com o princípio da laicidade, já que busca impor uma doutrina religiosa e da democracia por negar o direito de escolha.\nAs outras alternativas estão erradas por que:\nA) Assegurar as expressões multiculturais é um dos objetivos das sociedades democráticas admitindo e preservando diversas formas de manifestação cultural, diferente dos relatos no texto.\nB) Do mesmo modo, as práticas relatadas não promovem as diferenças étnicas.\nC) Não estão a apontar como falsas as crenças ou dogmas de uma religião, estão impedindo violentamente uma prática religiosa.\nD) Nos relatos também não há uma interação e influência entre religiões que marcaria um nível sincretismo."
+    },
+    {
+			"id": 24,
+			"text": "Nas últimas décadas, uma acentuada feminização no mundo do trabalho vem ocorrendo. Se a participação masculina pouco cresceu no período pós-1970, a intensificação da inserção das mulheres foi o traço marcante. Entretanto, essa presença feminina se dá mais no espaço dos empregos precários, onde a exploração, em grande medida, se encontra mais acentuada.\nNOGUEIRA, C. M. As trabalhadoras do telemarketing: uma nova divisão sexual do trabalho? In: ANTUNES, R. et al. Infoproletários: degradação real do trabalho virtual. São Paulo: Boitempo, 2009.\nA transformação descrita no texto tem sido insuficiente para o estabelecimento de uma condição de igualdade de oportunidade em virtude da(s)",
+				
+			"tags": [ 3 ],
+			"options": [
+				{
+					"text": "estagnação de direitos adquiridos e do anacronismo da legislação vigente.",
+					"correct": false
+				},
+				{
+					"text": "manutenção do status quo gerencial e dos padrões de socialização familiar.",
+					"correct": true
+				},
+				{
+					"text": "desestruturação da herança patriarcal e das mudanças do perfil ocupacional.",
+					"correct": false
+				},
+				{
+					"text": "disputas na composição sindical e da presença na esfera político-partidária.",
+					"correct": false
+				},
+				{
+					"text": "exigências de aperfeiçoamento profissional e de habilidades na competência diretiva.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "Apesar dos avanços dos direitos das mulheres conquistados pelos movimentos de mulheres, ainda há uma resistência à ocupação por mulheres dos cargos de gerência e chefia. Por outro lado, a socialização das meninas ainda sofre uma grande pressão para a adequação aos padrões tradicionais.\nEstas concepções tendem a empurrar as mulheres para ocupações menos valorizadas e precárias dentro do mercado de trabalho.\nAs outras alternativas estão erradas porque:\nA) Não há estagnação dos direitos. Os direitos das mulheres está em constante transformação em vista das reivindicações dos movimentos de mulheres.\nC) Mesmo com uma pauta contra o patriarcado e sua herança para a sociedade, não há uma mudança considerável no perfil ocupacional, principalmente, no que se refere aos cargos de comendo dentro das grandes empresas.\nD) As disputas pela participação sindical e política são positivas para construção de condições de igualdade entre os gêneros.\nE) As exigências de aperfeiçoamento profissional e de habilidades na competência diretiva não são responsáveis pela desigualdade entre homens e mulheres no mercado de trabalho. As condições que fundamentam as desigualdades não estão ligadas à capacidade ou diferenças naturais entre mulheres e homens."
+    },
+    {
+			"id": 25,
+			"text": "É verdade que nas democracias o povo parece fazer o que quer; mas a liberdade política não consiste nisso. Deve-se ter sempre presente em mente o que é independência e o que é liberdade. A liberdade é o direito de fazer tudo o que as leis permitem; se um cidadão pudesse fazer tudo o que elas proíbem, não teria mais liberdade, porque os outros também teriam tal poder.\nMONTESQUIEU. Do Espírito das Leis. São Paulo: Editora Nova Cultural, 1997 (adaptado).\nA característica de democracia ressaltada por Montesquieu diz respeito:",
+				
+			"tags": [ 4 ],
+			"options": [
+				{
+					"text": "ao status de cidadania que o indivíduo adquire ao tomar as decisões por si mesmo.",
+					"correct": false
+				},
+				{
+					"text": "ao condicionamento da liberdade dos cidadãos à conformidade às leis.",
+					"correct": true
+				},
+				{
+					"text": "à possibilidade de o cidadão participar no poder e, nesse caso, livre da submissão às leis.",
+					"correct": false
+				},
+				{
+					"text": "ao livre-arbítrio do cidadão em relação àquilo que é proibido, desde que ciente das consequências.",
+					"correct": false
+				},
+				{
+					"text": "ao direito do cidadão exercer sua vontade de acordo com seus valores pessoais.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "Uma boa questão para unir os conhecimentos de Sociologia, Filosofia e interpretação de texto. O pensador iluminista Montesquieu propõe um conceito de liberdade onde o indivíduo seria o responsável pelas suas escolhas.\nDesta maneira, ele aponta a lei e as consequências de desobedecê-la, como um limite necessário para a liberdade e convivência social.\nAs demais opções não estão corretas porque afirmam que o ser humano poderia \"participar do poder sem obedecer às leis\" ou que a liberdade do homem seria limitada por algo subjetivo como os \"valores pessoais\" ."
+    },
+    {
+			"id": 26,
+			"text": "Após o retorno de uma viagem a Minas Gerais, onde Pedro I fora recebido com grande frieza, seus partidários prepararam uma série de manifestações a favor do imperador no Rio de Janeiro, armando fogueiras e luminárias na cidade. Contudo, na noite de 11 de março, tiveram início os conflitos que ficaram conhecidos como a Noite das Garrafadas, durante os quais os “brasileiros” apagavam as fogueiras “portuguesas” e atacavam as casas iluminadas, sendo respondidos com cacos de garrafas jogadas das janelas.\nVAINFAS, R. (Org.). Dicionário do Brasil Imperial. Rio de Janeiro: Objetiva, 2008 (adaptado).\nOs anos finais do I Reinado (1822-1831) se caracterizaram pelo aumento da tensão política. Nesse sentido, a análise dos episódios descritos em Minas Gerais e no Rio de Janeiro revela",
+				
+			"tags": [ 4 ],
+			"options": [
+				{
+					"text": "estímulos ao racismo.",
+					"correct": false
+				},
+				{
+					"text": "apoio ao xenofobismo.",
+					"correct": false
+				},
+				{
+					"text": "críticas ao federalismo.",
+					"correct": false
+				},
+				{
+					"text": "repúdio ao republicanismo.",
+					"correct": false
+				},
+				{
+					"text": "questionamentos ao autoritarismo.",
+					"correct": true
+				}
+			],
+			"approved": true,
+			"explanation": "Com a centralização do poder em Dom Pedro I e a crise dinástica pelo trono português, os brasileiros passaram a questionar as ações cada vez mais centralizadoras do monarca expressando seu descontentamento com violência.\nAssim, recebem Dom Pedro I com frieza em Minas Gerais e atacando os portugueses no Rio de Janeiro."
+    },
+    {
+			"id": 27,
+			"text": "Sobre a conquista holandesa do Nordeste brasileiro, no período colonial, é correto afirmar:",
+				
+			"tags": [ 4 ],
+			"options": [
+				{
+					"text": "Os conflitos entre portugueses e holandeses devem ser compreendidos no contexto da União Ibérica (1580-1640) e da separação das Províncias Unidas do Império Habsburgo.",
+					"correct": true
+				},
+				{
+					"text": "A ocupação das áreas de plantio de cana obrigou os holandeses a intensificarem a escravização dos indígenas, uma vez que não possuíam bases no continente africano.",
+					"correct": false
+				},
+				{
+					"text": "Estabelecidos em Pernambuco, os holandeses empreenderam uma forte perseguição aos judeus e católicos ali residentes e fortaleceram a difusão do protestantismo no Brasil colonial.",
+					"correct": false
+				},
+				{
+					"text": "A administração de Maurício de Nassau foi caracterizada pelo pragmatismo e pela desmontagem do grande centro de artistas e letrados organizado pelas autoridades portuguesas em Olinda.",
+					"correct": false
+				},
+				{
+					"text": "Os holandeses implementaram uma nova e eficiente estrutura produtiva baseada em pequenas e médias propriedades familiares, que se diferenciava das antigas plantations escravistas.",
+					"correct": false
+				}
+			],
+			"approved": true,
+			"explanation": "No final do século XIV e primeira metade do século XVII, a Europa vivia um momento de mudanças. Portugal e Espanha estavam reunidos sob a coroa do rei Felipe II. No entanto, ele e seus herdeiros, enfrentam a revolta nas Províncias Unidas (Países Baixos), que resultaria numa guerra custosa e cara.\nCom a União Ibérica, o Tratado de Tordesilhas perde a validade, os colonos se aventuram pelo interior e os espanhóis podem - quando autorizados pelos portugueses - intervir militarmente no território do Brasil.\nAproveitando o descontentamento na Europa, um grupo de holandeses decide se apoderar da região açucareira do Nordeste, a fim de comercializar sem intermediários este lucrativo produto.\nEste é o contexto histórico da invasão dos holandeses no Nordeste. Posteriormente, eles seriam expulsos por uma armada luso-espanhola."
+    }
+  ]
 }
